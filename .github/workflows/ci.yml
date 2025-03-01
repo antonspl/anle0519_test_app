@@ -43,5 +43,8 @@ jobs:
       - name: Set up Docker Buildx
         uses: docker/setup-buildx-action@v2
 
+      - name: List build artifacts
+        run: ls -l build/libs/ # Debugging step
+
       - name: Build Docker Image
-        run: docker build -t myapp:latest .
+        run: docker build -t anle0519/testapp:latest .

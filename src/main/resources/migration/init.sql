@@ -22,3 +22,4 @@ create table customers (
 insert into public.customers (name, email, description) values ('Anton', 'antonspl@yandex.ru', 'its me');
 insert into public.customers (name, email, description) values ('Sergio', 'other@gmail.com', 'its not me');
 insert into public.customers (name, email, description) values ('Amorim', 'amorim@gmail.com', 'who is him');
+insert into public.customers (name, email, description) values ('Lucio', 'lucio@gmail.com', 'Amorims friend');
