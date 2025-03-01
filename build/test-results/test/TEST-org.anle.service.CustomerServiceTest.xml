@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.anle.service.CustomerServiceTest" tests="5" skipped="0" failures="0" errors="0" timestamp="2025-03-01T10:52:38" hostname="DESKTOP-K764CDJ" time="0.235">
+  <properties/>
+  <testcase name="creates_user()" classname="org.anle.service.CustomerServiceTest" time="0.16"/>
+  <testcase name="updates_user_fields()" classname="org.anle.service.CustomerServiceTest" time="0.014"/>
+  <testcase name="does_not_find_user_by_id()" classname="org.anle.service.CustomerServiceTest" time="0.028"/>
+  <testcase name="finds_user_by_id()" classname="org.anle.service.CustomerServiceTest" time="0.003"/>
+  <testcase name="finds_all_users()" classname="org.anle.service.CustomerServiceTest" time="0.011"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
