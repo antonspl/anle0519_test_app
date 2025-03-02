@@ -10,7 +10,6 @@
 
 ### Prerequisites
 Ensure you have the following installed:
-- **Java 23**
 - **Docker & Docker Compose**
 - **Gradle**
 - **Git**
@@ -22,11 +21,12 @@ Ensure you have the following installed:
 #### 2️⃣ Build the Project
 ```bash
 ./gradlew clean build
+./gradlew docker dockerPush
 ```
 
 #### 3️⃣ Run the Application with Docker
 ```bash
-docker-compose up --build
+docker-compose up -d
 ```
 This will start **PostgreSQL** and your Spring Boot app in the same network.
 
